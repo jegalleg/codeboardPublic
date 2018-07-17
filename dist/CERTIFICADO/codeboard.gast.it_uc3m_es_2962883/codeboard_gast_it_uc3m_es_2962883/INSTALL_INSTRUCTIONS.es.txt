@@ -1,0 +1,22 @@
+Instrucciones de Instalación Apache
+====================================
+
+Para poder instalar su certificado correctamente, es importantes configurar el servidor para que utilice el archivo intermedio, DigiCertCA.crt, además de codeboard_gast_it_uc3m_es.crt.
+
+Nuestra guía de instalación para Apache se ve aquí:
+
+https://www.digicert.com/es/instalar-certificado-ssl-apache.htm
+
+Una instalación típica en Apache envolucrará líneas de configuración tales como estas en su bloc <VirtualHost *:443>
+
+SSLCertificateFile /tu/ruta/a/codeboard_gast_it_uc3m_es.crt
+SSLCertificateKeyFile /tu/ruta/a/codeboard_gast_it_uc3m_es.key
+SSLCertificateChainFile /tu/ruta/a/DigiCertCA.crt
+
+El archivo codeboard_gast_it_uc3m_es.key se refiere a la llave privada que sólo usted custodia. Lo más probable es que se haya generado en la misma máquina donde se creó su CSR el día en que se pidió este certificado.
+
+Después de instalar el certificado, se puede verificar la instalación utilizando nuestra herramienta:
+
+https://www.digicert.com/es/ayuda/
+
+Si experimenta dificultades al intentar instalar su certificado, favor de ponerse en contacto con nuestro amigable equipo de soporte.

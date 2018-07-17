@@ -1,0 +1,89 @@
+nohup: ignoring input
+Loading "nodemon.js" tasks...[31mERROR[39m
+[31m>> [39mSyntaxError: /home/cobo/codeboard/node_modules/grunt-nodemon/node_modules/nodemon/lib/nodemon.js:93[31m
+>> [39m    config.loaded.map(file => file.replace(cwd, '.')).forEach(file => {[31m
+>> [39m                           ^^[31m
+>> [39mUnexpected token =>
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+
+    Loading "nodemon.js" tasks...[31mERROR[39m
+    [31m>> [39mSyntaxError: /home/cobo/codeboard/node_modules/grunt-nodemon/node_modules/nodemon/lib/nodemon.js:93[31m
+    >> [39m    config.loaded.map(file => file.replace(cwd, '.')).forEach(file => {[31m
+    >> [39m                           ^^[31m
+    >> [39mUnexpected token =>
+
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied [36m9[39m files
+
+    [32mDone, without errors.[39m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+[32m>> [39m9 autoprefixed stylesheets created.
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+fs.js:0
+(function (exports, require, module, __filename, __dirname) { // Copyright Joy
+
+Error: ENOENT, no such file or directory 'new.cert.crt'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Object.<anonymous> (/home/cobo/codeboard/server.js:105:15)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
+[31mStopping[39m Express server
+
+[4mRunning "open:server" (open) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /home/cobo/codeboard/node_modules/open/vendor/xdg-open "http://localhost:9000"
+xdg-open: no method available for opening 'http://localhost:9000'
+[39m
+[32m>> [39mFile ".tmp/styles/projectStats.css" changed.
+[32m>> [39mFile ".tmp/styles/projectSummary.css" changed.
+[32m>> [39mFile ".tmp/styles/userManagement.css" changed.
+[32m>> [39mFile ".tmp/styles/style.css" changed.
+[32m>> [39mFile ".tmp/styles/projectListing.css" changed.
+[32m>> [39mFile ".tmp/styles/main.css" changed.
+[32m>> [39mFile ".tmp/styles/docs.css" changed.
+[32m>> [39mFile ".tmp/styles/ide.css" changed.
+[32m>> [39mFile ".tmp/styles/userSettings.css" changed.
+[36mCompleted in 0.001s at Wed Apr 25 2018 13:55:09 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "server.js" changed.
+
+[4mRunning "watch" task[24m
+[36mCompleted in 0.026s at Wed Apr 25 2018 13:56:00 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile ".tmp/styles/ide.css" changed.
+[32m>> [39mFile ".tmp/styles/docs.css" changed.
+[32m>> [39mFile ".tmp/styles/projectStats.css" changed.
+[32m>> [39mFile ".tmp/styles/projectListing.css" changed.
+[32m>> [39mFile ".tmp/styles/main.css" changed.
+[32m>> [39mFile ".tmp/styles/projectSummary.css" changed.
+[32m>> [39mFile ".tmp/styles/userManagement.css" changed.
+[32m>> [39mFile ".tmp/styles/style.css" changed.
+[32m>> [39mFile ".tmp/styles/userSettings.css" changed.
+[36mCompleted in 0.000s at Wed Apr 25 2018 13:56:22 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile ".tmp/styles/style.css" changed.
+[32m>> [39mFile ".tmp/styles/userManagement.css" changed.
+[32m>> [39mFile ".tmp/styles/projectSummary.css" changed.
+[32m>> [39mFile ".tmp/styles/projectListing.css" changed.
+[32m>> [39mFile ".tmp/styles/projectStats.css" changed.
+[32m>> [39mFile ".tmp/styles/docs.css" changed.
+[32m>> [39mFile ".tmp/styles/userSettings.css" changed.
+[32m>> [39mFile ".tmp/styles/ide.css" changed.
+[32m>> [39mFile ".tmp/styles/main.css" changed.
+[36mCompleted in 0.000s at Wed Apr 25 2018 14:00:31 GMT+0200 (CEST)[39m - Waiting...

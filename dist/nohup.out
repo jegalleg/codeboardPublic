@@ -1,0 +1,259 @@
+module.js:338
+    throw err;
+          ^
+Error: Cannot find module './env/undefined.js'
+    at Function.Module._resolveFilename (module.js:336:15)
+    at Function.Module._load (module.js:278:25)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (/home/cobo/codeboard/dist/lib/config/config.js:10:5)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+Loading "nodemon.js" tasks...[31mERROR[39m
+[31m>> [39mSyntaxError: /home/cobo/codeboard/node_modules/grunt-nodemon/node_modules/nodemon/lib/nodemon.js:93[31m
+>> [39m    config.loaded.map(file => file.replace(cwd, '.')).forEach(file => {[31m
+>> [39m                           ^^[31m
+>> [39mUnexpected token =>
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+
+    Loading "nodemon.js" tasks...[31mERROR[39m
+    [31m>> [39mSyntaxError: /home/cobo/codeboard/node_modules/grunt-nodemon/node_modules/nodemon/lib/nodemon.js:93[31m
+    >> [39m    config.loaded.map(file => file.replace(cwd, '.')).forEach(file => {[31m
+    >> [39m                           ^^[31m
+    >> [39mUnexpected token =>
+
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied [36m9[39m files
+
+    [32mDone, without errors.[39m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+[32m>> [39m9 autoprefixed stylesheets created.
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Codeboard server listening on port 9000 in development mode
+
+[4mRunning "open:server" (open) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /home/cobo/codeboard/node_modules/open/vendor/xdg-open "http://localhost:9000"
+xdg-open: no method available for opening 'http://localhost:9000'
+[39m
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: read ETIMEDOUT
+    at exports._errnoException (util.js:746:11)
+    at TCP.onread (net.js:561:26)
+[31mStopping[39m Express server
+[32m>> [39mFile ".tmp/styles/ide.css" changed.
+[32m>> [39mFile ".tmp/styles/projectListing.css" changed.
+[32m>> [39mFile ".tmp/styles/projectSummary.css" changed.
+[32m>> [39mFile ".tmp/styles/userSettings.css" changed.
+[32m>> [39mFile ".tmp/styles/main.css" changed.
+[32m>> [39mFile ".tmp/styles/docs.css" changed.
+[32m>> [39mFile ".tmp/styles/projectStats.css" changed.
+[32m>> [39mFile ".tmp/styles/style.css" changed.
+[32m>> [39mFile ".tmp/styles/userManagement.css" changed.
+[36mCompleted in 0.001s at Sun Jun 24 2018 10:58:17 GMT+0200 (CEST)[39m - Waiting...
+module.js:338
+    throw err;
+          ^
+Error: Cannot find module './env/undefined.js'
+    at Function.Module._resolveFilename (module.js:336:15)
+    at Function.Module._load (module.js:278:25)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (/home/cobo/codeboard/dist/lib/config/config.js:10:5)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+module.js:338
+    throw err;
+          ^
+Error: Cannot find module './env/undefined.js'
+    at Function.Module._resolveFilename (module.js:336:15)
+    at Function.Module._load (module.js:278:25)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (/home/cobo/codeboard/dist/lib/config/config.js:10:5)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+Loading "nodemon.js" tasks...[31mERROR[39m
+[31m>> [39mSyntaxError: /home/cobo/codeboard/node_modules/grunt-nodemon/node_modules/nodemon/lib/nodemon.js:93[31m
+>> [39m    config.loaded.map(file => file.replace(cwd, '.')).forEach(file => {[31m
+>> [39m                           ^^[31m
+>> [39mUnexpected token =>
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+
+    Loading "nodemon.js" tasks...[31mERROR[39m
+    [31m>> [39mSyntaxError: /home/cobo/codeboard/node_modules/grunt-nodemon/node_modules/nodemon/lib/nodemon.js:93[31m
+    >> [39m    config.loaded.map(file => file.replace(cwd, '.')).forEach(file => {[31m
+    >> [39m                           ^^[31m
+    >> [39mUnexpected token =>
+
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied [36m9[39m files
+
+    [32mDone, without errors.[39m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+[32m>> [39m9 autoprefixed stylesheets created.
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Codeboard server listening on port 9000 in development mode
+
+[4mRunning "open:server" (open) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /home/cobo/codeboard/node_modules/open/vendor/xdg-open "http://localhost:9000"
+xdg-open: no method available for opening 'http://localhost:9000'
+[39m
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+TypeError: undefined is not a function
+    at Object.showCompilationPerDayLogs (/home/cobo/codeboard/lib/services/logSrv.js:300:17)
+    at Object.getCompilationPerDayLogs [as handle] (/home/cobo/codeboard/lib/controllers/logCtrl.js:23:10)
+    at next_layer (/home/cobo/codeboard/node_modules/express/lib/router/route.js:113:13)
+    at null.<anonymous> (/home/cobo/codeboard/lib/middleware.js:172:9)
+    at tryCatcher (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:503:31)
+    at Promise._settlePromiseAt (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:577:18)
+    at Promise._settlePromises (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:693:14)
+    at Async._drainQueue (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:123:16)
+    at Async._drainQueues (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:15:14)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+TypeError: undefined is not a function
+    at Object.showProjectAccessPerDayLogs (/home/cobo/codeboard/lib/services/logSrv.js:1752:17)
+    at Object.getProjectAccessPerDayLogs [as handle] (/home/cobo/codeboard/lib/controllers/logCtrl.js:181:10)
+    at next_layer (/home/cobo/codeboard/node_modules/express/lib/router/route.js:113:13)
+    at null.<anonymous> (/home/cobo/codeboard/lib/middleware.js:172:9)
+    at tryCatcher (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:503:31)
+    at Promise._settlePromiseAt (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:577:18)
+    at Promise._settlePromises (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:693:14)
+    at Async._drainQueue (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:123:16)
+    at Async._drainQueues (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:15:14)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+Error in projectjs.initLtiSession: {"statusCode":401,"msg":"The project does not allow access via LTI or the provided key/secret combination is wrong."}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+TypeError: undefined is not a function
+    at Object.showCompilationPerDayLogs (/home/cobo/codeboard/lib/services/logSrv.js:300:17)
+    at Object.getCompilationPerDayLogs [as handle] (/home/cobo/codeboard/lib/controllers/logCtrl.js:23:10)
+    at next_layer (/home/cobo/codeboard/node_modules/express/lib/router/route.js:113:13)
+    at null.<anonymous> (/home/cobo/codeboard/lib/middleware.js:172:9)
+    at tryCatcher (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:503:31)
+    at Promise._settlePromiseAt (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:577:18)
+    at Promise._settlePromises (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:693:14)
+    at Async._drainQueue (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:123:16)
+    at Async._drainQueues (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:15:14)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+TypeError: undefined is not a function
+    at Object.showProjectAccessPerDayLogs (/home/cobo/codeboard/lib/services/logSrv.js:1752:17)
+    at Object.getProjectAccessPerDayLogs [as handle] (/home/cobo/codeboard/lib/controllers/logCtrl.js:181:10)
+    at next_layer (/home/cobo/codeboard/node_modules/express/lib/router/route.js:113:13)
+    at null.<anonymous> (/home/cobo/codeboard/lib/middleware.js:172:9)
+    at tryCatcher (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:503:31)
+    at Promise._settlePromiseAt (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:577:18)
+    at Promise._settlePromises (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:693:14)
+    at Async._drainQueue (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:123:16)
+    at Async._drainQueues (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:15:14)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+TypeError: undefined is not a function
+    at Object.showCompilationPerDayLogs (/home/cobo/codeboard/lib/services/logSrv.js:300:17)
+    at Object.getCompilationPerDayLogs [as handle] (/home/cobo/codeboard/lib/controllers/logCtrl.js:23:10)
+    at next_layer (/home/cobo/codeboard/node_modules/express/lib/router/route.js:113:13)
+    at null.<anonymous> (/home/cobo/codeboard/lib/middleware.js:172:9)
+    at tryCatcher (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:503:31)
+    at Promise._settlePromiseAt (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:577:18)
+    at Promise._settlePromises (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:693:14)
+    at Async._drainQueue (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:123:16)
+    at Async._drainQueues (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:15:14)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+TypeError: undefined is not a function
+    at Object.showProjectAccessPerDayLogs (/home/cobo/codeboard/lib/services/logSrv.js:1752:17)
+    at Object.getProjectAccessPerDayLogs [as handle] (/home/cobo/codeboard/lib/controllers/logCtrl.js:181:10)
+    at next_layer (/home/cobo/codeboard/node_modules/express/lib/router/route.js:113:13)
+    at null.<anonymous> (/home/cobo/codeboard/lib/middleware.js:172:9)
+    at tryCatcher (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:503:31)
+    at Promise._settlePromiseAt (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:577:18)
+    at Promise._settlePromises (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/promise.js:693:14)
+    at Async._drainQueue (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:123:16)
+    at Async._drainQueues (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/cobo/codeboard/node_modules/sequelize/node_modules/bluebird/js/main/async.js:15:14)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
+controllers/usersjs.createUser: Error while signing up a new user.
+Successfully send a http-response to the user but then got an error.
+Error message: {"cause":{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect"}}
